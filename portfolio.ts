@@ -12,26 +12,24 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Don Michael Ombisi",
+  title: "Hi all, I'm Don",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "I'm passionate about Full Stack web development, data analysis, and cybersecurity with experience in developing Full Stack web applications using Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+  resumeLink: "https://app.resumegiants.com/253d9c8d-d007-4b7e-8dab-b6a9c6e9456b", // Add the path to your resume PDF file
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "robotm-m",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:Don.ombisimichael@gmail.com",
+  linkedin: "https://www.linkedin.com/in/don-michael-320952256/",
+  github: "https://github.com/robotm-m",
+  instagram: "https://www.instagram.com/d_corelone/",
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -90,8 +88,8 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Frontend/Design", // Insert stack or technology you have experience in
+    progressPercentage: "85", // Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
@@ -101,50 +99,58 @@ export const SkillBars: SkillBarsType[] = [
     Stack: "Programming",
     progressPercentage: "95",
   },
+  {
+    Stack: "Networks",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Data analytics",
+    progressPercentage: "93",
+  },
+  {
+    Stack: "Network Security",
+    progressPercentage: "90",
+  },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "Catholic University of Eastern Africa",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    duration: "September 2021 - October 2025",
     desc: "",
-    grade: "Grade A",
+    grade: "Grade ",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "System Developer",
+    company: "Postbank",
+    companyLogo: "",
+    date: "April 2024 - August 2024",
+    desc: "Developed a helpdesk system that enables users to send tickets to support/admin so that their problems can be resolved physically or remotely.",
   },
   {
     role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    company: "File management system",
+    companyLogo: "",
+    date: "April 2023 - August 2023",
+    desc: "Developed a file management system to enable easier tracking of pensioners' files.",
   },
   {
     role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    company: "Bookstore",
+    companyLogo: "",
+    date: "June 2024 - August 2024",
+    desc: "Developed an accounting/inventory software for a local bookstore.",
   },
   {
     role: "Backend Developer",
     company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
+    companyLogo: "",
+    date: "Sept 2023 - Oct 2023",
     desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
@@ -157,57 +163,57 @@ export const projects: ProjectType[] = [
     link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Healthcare",
+    desc: "A healthcare app that enables users to book appointments in advance.",
+    link: "https://healthcare-lac.vercel.app/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Yoom",
+    desc: "Video conferencing app.",
+    link: "https://zoom-snowy-beta.vercel.app/",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Editor",
+    desc: "A collaborative editor Platform.",
+    link: "https://collaborativeeditor-lime.vercel.app/",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Alex",
+    role: "User support/Administrator at PostBank",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team. I'm quite impressed with your abilities and professional practices.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Peter",
+    role: "Developer at Postbank",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "Don has a deep understanding of app/web development technologies and is adept at using them to build scalable, robust, and secure applications.",
   },
   {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
+    name: "Margaret",
+    role: "HEAD ICT PENSIONS",
     feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "Very skilled at what he does and has an in-depth knowledge of Django and he's always ready to handle any challenges thrown at him.",
   },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Don Michael Ombisi",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  author: "Don Michael",
+  image: "https://avatars.githubusercontent.com/u/155391757?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Don",
+    "Don Michael",
+    "@1Don100",
+    "1Don100",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Don Portfolio",
+    "Don Michael Portfolio",
   ],
 };
