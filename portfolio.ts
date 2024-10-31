@@ -168,6 +168,21 @@ export const projects: ProjectType[] = [
     link: "https://healthcare-lac.vercel.app/",
   },
   {
+    name: "iSHOP",
+    desc: "E-commerce Platform.",
+    link: "https://ishop-mauve.vercel.app/",
+  },
+  {
+    name: "Lingua-speak",
+    desc: "LinguaSpeak is an advanced voice translation tool.",
+    link: "https://lingua-speak-theta.vercel.app//",
+  },
+  {
+    name: "ThreadCraft AI",
+    desc: "ThreadCraft AIleverages AI to generate engaging content.",
+    link: "https://threadcraftai-kappa.vercel.app/",
+  },
+  {
     name: "Yoom",
     desc: "Video conferencing app.",
     link: "https://zoom-snowy-beta.vercel.app/",
