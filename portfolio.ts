@@ -168,9 +168,9 @@ export const projects: ProjectType[] = [
     link: "https://healthcare-lac.vercel.app/",
   },
   {
-    name: "iSHOP",
-    desc: "E-commerce Platform.",
-    link: "https://ishop-mauve.vercel.app/",
+    name: "W3HOST",
+    desc: "Web3 Hosting Platform.",
+    link: "https://host3-blond.vercel.app/",
   },
   {
     name: "Lingua-speak",
